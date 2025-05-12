@@ -7,7 +7,7 @@ import { ArrowBigDown } from "lucide-react";
 export default function Hero() {
   return (
     <SectionContainer>
-      <div className="w-full relative min-h-[80vh]">
+      <div className="w-full relative min-h-[100vh] flex flex-col">
         <img
           src={backgroundImage}
           className="w-full h-full absolute top-0 left-0 -z-10 opacity-40 object-cover "
